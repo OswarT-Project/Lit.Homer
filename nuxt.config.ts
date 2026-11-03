@@ -6,6 +6,8 @@ export default defineNuxtConfig({
     'nuxt-studio',
     '@vueuse/nuxt/module',
     'nuxt-auth-utils',
+    '@type32/nuxt-cs-utils',
+    '@type32/nuxt-ui-extras',
   ],
   devtools: { enabled: true },
   compatibilityDate: '2024-04-03',
