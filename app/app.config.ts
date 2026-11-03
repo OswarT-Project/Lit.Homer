@@ -4,6 +4,23 @@ export default defineAppConfig({
 			primary: 'clay',
 			neutral: 'parchment'
 		},
+		pageHero: {
+			slots: {
+				title: 'font-serif tracking-wide',
+				headline: 'text-primary'
+			}
+		},
+		pageHeader: {
+			slots: {
+				title: 'font-serif'
+			}
+		},
+		pageCard: {
+			slots: {
+				title: 'font-serif',
+				root: 'transition-colors hover:border-primary/60'
+			}
+		},
 		icons: {
 			arrowDown: 'i-heroicons-arrow-down',
 			arrowLeft: 'i-heroicons-arrow-left',

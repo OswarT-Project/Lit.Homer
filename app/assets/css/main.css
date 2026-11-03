@@ -70,3 +70,15 @@
 	--ui-border-muted: var(--ui-color-neutral-700);
 	--ui-border-accented: var(--ui-color-neutral-700);
 }
+
+/* 纸张纹理：极淡的两道光晕，让大块底色不发死 */
+body::before {
+	content: "";
+	position: fixed;
+	inset: 0;
+	z-index: -1;
+	pointer-events: none;
+	background-image:
+		radial-gradient(circle at 20% 30%, color-mix(in oklab, var(--ui-color-primary-500) 5%, transparent) 0, transparent 45%),
+		radial-gradient(circle at 80% 70%, color-mix(in oklab, var(--ui-color-neutral-500) 5%, transparent) 0, transparent 40%);
+}

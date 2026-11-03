@@ -3,6 +3,12 @@ const route = useRoute()
 
 const { data: landing } = await useAsyncData('landing', () => queryCollection('landing').first())
 
+const { data: navigation } = await useAsyncData('search-navigation', async () => {
+  const [entries, topics] = await Promise.all([queryCollectionNavigation('entries'), queryCollectionNavigation('topics')])
+  const titles: Record<string, string> = { '/entries': '条目', '/topics': '议题' }
+  return [...entries, ...topics].map((n) => ({ ...n, title: titles[n.path] ?? n.title }))
+})
+
 const { data: files } = useLazyAsyncData(
   'search-sections',
   async () => {
@@ -65,7 +71,7 @@ const items = computed(() => [
     </UFooter>
 
     <ClientOnly>
-      <LazyUContentSearch :files="files || []" :fuse="{ resultLimit: 30 }" shortcut="meta_k" />
+      <LazyUContentSearch :files="files || []" :navigation="navigation || []" :fuse="{ resultLimit: 30, fuseOptions: { useTokenSearch: false, threshold: 0.2, ignoreLocation: true, keys: ['label', 'description', 'suffix', 'title', 'content'] } }" shortcut="meta_k" />
     </ClientOnly>
   </UApp>
 </template>
