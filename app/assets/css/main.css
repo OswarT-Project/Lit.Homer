@@ -1,0 +1,84 @@
+@import "tailwindcss";
+@import "@nuxt/ui";
+
+@theme {
+	--font-sans: 'IBM Plex Sans', 'PingFang SC', 'Microsoft YaHei', 'Hiragino Sans GB', 'Source Han Sans SC', sans-serif;
+	--font-serif: 'IBM Plex Serif', 'Songti SC', 'Noto Serif CJK SC', 'Source Han Serif SC', 'STSong', 'SimSun', serif;
+	--font-mono: 'Geist Mono', monospace;
+}
+
+@theme static {
+	--color-clay-50: oklch(97.4% 0.009 48.308);
+	--color-clay-100: oklch(94.2% 0.019 52.207);
+	--color-clay-200: oklch(88.5% 0.036 51.142);
+	--color-clay-300: oklch(82.1% 0.058 50.392);
+	--color-clay-400: oklch(74.1% 0.094 47.255);
+	--color-clay-500: oklch(67.2% 0.131 38.798);
+	--color-clay-600: oklch(58.9% 0.138 37.63);
+	--color-clay-700: oklch(51.4% 0.123 37.45);
+	--color-clay-800: oklch(44.4% 0.103 36.916);
+	--color-clay-900: oklch(38.8% 0.086 36.46);
+	--color-clay-950: oklch(25.9% 0.054 38.197);
+	--color-parchment-50: oklch(98% 0.006 100);
+	--color-parchment-100: oklch(96.5% 0.011 99);
+	--color-parchment-200: oklch(93.6% 0.014 97.348);
+	--color-parchment-300: oklch(85.8% 0.018 100);
+	--color-parchment-400: oklch(72.1% 0.015 102.54);
+	--color-parchment-500: oklch(57.8% 0.008 88.877);
+	--color-parchment-600: oklch(43.2% 0.006 91.526);
+	--color-parchment-700: oklch(38.2% 0.003 84.572);
+	--color-parchment-800: oklch(29.3% 0.003 106.588);
+	--color-parchment-900: oklch(21.7% 0.002 106.561);
+	--color-parchment-950: oklch(14.6% 0 0);
+}
+
+/* until v5 ships --ui-font-heading */
+@layer base {
+	:root {
+		--app-sans: 'IBM Plex Sans', 'PingFang SC', 'Microsoft YaHei', 'Hiragino Sans GB', 'Source Han Sans SC', sans-serif;
+		--app-serif: 'IBM Plex Serif', 'Songti SC', 'Noto Serif CJK SC', 'Source Han Serif SC', 'STSong', 'SimSun', serif;
+	}
+	body {
+		font-family: var(--app-sans);
+	}
+	h1, h2, h3, h4, h5, h6 {
+		font-family: var(--app-serif);
+	}
+}
+
+:root {
+	--ui-radius: 0.125rem;
+}
+
+:root, .light {
+	--ui-bg: var(--ui-color-neutral-100);
+	--ui-bg-muted: var(--ui-color-neutral-200);
+	--ui-bg-elevated: var(--ui-color-neutral-200);
+	--ui-bg-accented: var(--ui-color-neutral-300);
+	--ui-border: var(--ui-color-neutral-300);
+	--ui-border-muted: var(--ui-color-neutral-300);
+	--ui-border-accented: var(--ui-color-neutral-400);
+}
+
+.dark {
+	--ui-bg-accented: var(--ui-color-neutral-800);
+	--ui-primary: var(--ui-color-primary-500);
+	--ui-bg: var(--ui-color-neutral-900);
+	--ui-bg-muted: var(--ui-color-neutral-800);
+	--ui-bg-elevated: var(--ui-color-neutral-800);
+	--ui-border: var(--ui-color-neutral-800);
+	--ui-border-muted: var(--ui-color-neutral-700);
+	--ui-border-accented: var(--ui-color-neutral-700);
+}
+
+/* 纸张纹理：极淡的两道光晕，让大块底色不发死 */
+body::before {
+	content: "";
+	position: fixed;
+	inset: 0;
+	z-index: -1;
+	pointer-events: none;
+	background-image:
+		radial-gradient(circle at 20% 30%, color-mix(in oklab, var(--ui-color-primary-500) 5%, transparent) 0, transparent 45%),
+		radial-gradient(circle at 80% 70%, color-mix(in oklab, var(--ui-color-neutral-500) 5%, transparent) 0, transparent 40%);
+}
