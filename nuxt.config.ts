@@ -10,5 +10,6 @@ export default defineNuxtConfig({
     '@type32/nuxt-ui-extras',
   ],
   devtools: { enabled: true },
+  css: ['~/assets/css/main.css'],
   compatibilityDate: '2024-04-03',
 })

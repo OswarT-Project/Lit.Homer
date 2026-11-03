@@ -1,5 +1,6 @@
 ---
 title: 《冰汽时代》与《艰难时世》：煤烟、事实与越界
+description: 狄更斯写焦煤镇，写的是人被「事实」碾平；《冰汽时代》让你亲手操作那台碾子，然后在结尾问你：你越界了吗。
 category: mechanic
 origin: ai
 game:
@@ -18,11 +19,9 @@ tags:
 updated: 2026-10-05
 quote:
   text: 那是一座红砖的城，或者说，要不是烟和灰允许的话，本来会是红砖的城。
+  original: It was a town of red brick, or of brick that would have been red if the smoke and ashes had allowed it.
   lang: 英
   source: 《艰难时世》第一卷第五章，写焦煤镇
-  note: 原文 It was a town of red brick, or of brick that would have been red if the
-    smoke and ashes had allowed it.
-summary: 狄更斯写焦煤镇，写的是人被「事实」碾平；《冰汽时代》让你亲手操作那台碾子，然后在结尾问你：你越界了吗。
 notes:
   - label: 译本
     text: 《艰难时世》全增嘏、胡文淑译本（上海译文出版社）较为通行。

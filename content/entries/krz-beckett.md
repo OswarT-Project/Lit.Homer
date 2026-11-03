@@ -1,5 +1,6 @@
 ---
 title: 《肯塔基零号公路》与《等待戈多》：什么也没有发生
+description: 一款用五幕剧结构写成的游戏：每一幕有幕名、有舞台指示、有换景。它讲的是一群被债务困住的人，在路上等一个不会来的人。
 category: reading
 origin: ai
 game:
@@ -18,11 +19,10 @@ tags:
 updated: 2026-10-09
 quote:
   text: 什么也没有发生，没有人来，没有人去，这太可怕了。
+  original: Rien ne se passe, personne ne vient, personne ne s'en va, c'est terrible
   lang: 法
   source: 《等待戈多》第二幕，弗拉季米尔的台词
-  note: 原文 Rien ne se passe, personne ne vient, personne ne s'en va, c'est
-    terrible；施咸荣中译作「什么也没有发生，谁也没有来，谁也没有去，这太可怕了」。
-summary: 一款用五幕剧结构写成的游戏：每一幕有幕名、有舞台指示、有换景。它讲的是一群被债务困住的人，在路上等一个不会来的人。
+  note: 施咸荣中译作「什么也没有发生，谁也没有来，谁也没有去，这太可怕了」。
 notes:
   - label: 结构
     text: 全作分五幕，另有间奏；每一幕对应一种戏剧空间（剧场、办公室、地下、河上）。

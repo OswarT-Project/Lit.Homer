@@ -2,8 +2,8 @@
 @import "@nuxt/ui";
 
 @theme {
-	--font-sans: 'IBM Plex Sans', sans-serif;
-	--font-serif: 'IBM Plex Serif', serif;
+	--font-sans: 'IBM Plex Sans', 'PingFang SC', 'Microsoft YaHei', 'Hiragino Sans GB', 'Source Han Sans SC', sans-serif;
+	--font-serif: 'IBM Plex Serif', 'Songti SC', 'Noto Serif CJK SC', 'Source Han Serif SC', 'STSong', 'SimSun', serif;
 	--font-mono: 'Geist Mono', monospace;
 }
 
@@ -34,8 +34,15 @@
 
 /* until v5 ships --ui-font-heading */
 @layer base {
+	:root {
+		--app-sans: 'IBM Plex Sans', 'PingFang SC', 'Microsoft YaHei', 'Hiragino Sans GB', 'Source Han Sans SC', sans-serif;
+		--app-serif: 'IBM Plex Serif', 'Songti SC', 'Noto Serif CJK SC', 'Source Han Serif SC', 'STSong', 'SimSun', serif;
+	}
+	body {
+		font-family: var(--app-sans);
+	}
 	h1, h2, h3, h4, h5, h6 {
-		font-family: var(--font-serif);
+		font-family: var(--app-serif);
 	}
 }
 

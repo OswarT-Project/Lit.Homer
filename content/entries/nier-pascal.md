@@ -1,5 +1,6 @@
 ---
 title: 《尼尔：机械纪元》与帕斯卡：会思想的芦苇与不会痛的机器
+description: 游戏里的机械生命体以哲学家命名：帕斯卡、萨特、西蒙娜、黑格尔。名字不是彩蛋，是命题：如果机器开始思考，它会不会也开始痛苦。
 category: reading
 origin: ai
 game:
@@ -18,11 +19,9 @@ tags:
 updated: 2026-09-22
 quote:
   text: 人是一根会思想的芦苇。
+  original: L'homme n'est qu'un roseau, le plus faible de la nature ; mais c'est un roseau pensant.
   lang: 法
   source: 《思想录》第二编，论人的伟大与可悲
-  note: 原文 L'homme n'est qu'un roseau, le plus faible de la nature ; mais c'est un
-    roseau pensant.
-summary: 游戏里的机械生命体以哲学家命名：帕斯卡、萨特、西蒙娜、黑格尔。名字不是彩蛋，是命题：如果机器开始思考，它会不会也开始痛苦。
 notes:
   - label: 译本
     text: 《思想录》何兆武译本（商务印书馆）流传最广，「会思想的芦苇」即出自此本。

@@ -1,5 +1,6 @@
 ---
 title: 《边狱巴士》与《局外人》：一个不肯说谎的人
+description: 游戏以「罪」与「赎罪」为核心词，却收编了一个拒绝赎罪的人物。这个错位，正是理解默尔索的入口。
 category: motif
 origin: ai
 series: limbus
@@ -19,10 +20,10 @@ tags:
 updated: 2026-11-03
 quote:
   text: 我向这世界温柔的冷漠敞开了自己，觉得它与我如此相像，终于如此亲如兄弟。
+  original: je me suis ouvert à la tendre indifférence du monde
   lang: 法
   source: 《局外人》结尾，默尔索在死囚牢中的独白
-  note: 原文 je me suis ouvert à la tendre indifférence du monde；此处为意译，中译各家句式差异较大。
-summary: 游戏以「罪」与「赎罪」为核心词，却收编了一个拒绝赎罪的人物。这个错位，正是理解默尔索的入口。
+  note: 此处为意译，中译各家句式差异较大。
 notes:
   - label: 原典
     text: 《局外人》（L'Étranger，1942），加缪。全书第一部与第二部结构对称，法庭审判是第二部的重心。

@@ -1,5 +1,6 @@
 ---
 title: 《赛博朋克 2077》与《神经漫游者》：天空的颜色与身体的重量
+description: 游戏改编自 1988 年的桌游《赛博朋克 2020》，而那套桌游的视觉与词汇几乎全部来自吉布森。于是出现了一条有趣的倒流：小说定义了风格，游戏又把它做成了可居住的世界。
 category: quote
 origin: ai
 game:
@@ -18,11 +19,10 @@ tags:
 updated: 2026-10-14
 quote:
   text: 港口的天空是电视机调到死频道的颜色。
+  original: the color of television, tuned to a dead channel
   lang: 英
   source: 《神经漫游者》开篇第一句
-  note: 原文 the color of television, tuned to a dead channel；此句常被当作赛博朋克美学的定义句。
-summary: 游戏改编自 1988 年的桌游《赛博朋克
-  2020》，而那套桌游的视觉与词汇几乎全部来自吉布森。于是出现了一条有趣的倒流：小说定义了风格，游戏又把它做成了可居住的世界。
+  note: 此句常被当作赛博朋克美学的定义句。
 notes:
   - label: 谱系
     text: 《赛博朋克 2020》（1988，Mike Pondsmith）→《赛博朋克 2077》（2020）。桌游的视觉语言大量借鉴吉布森与《银翼杀手》。

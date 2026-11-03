@@ -164,6 +164,12 @@ export function sortByUpdated<T extends { updated?: string | null }>(list: T[]):
   return [...list].sort((a, b) => String(b.updated || '').localeCompare(String(a.updated || '')))
 }
 
+/** 条目/专题/系列的稳定 slug：取 path/stem 的最后一段（= 文件名 stem）。 */
+export function slugOf(item: { path?: string; stem?: string; id?: string }): string {
+  const p = item.path || item.stem || item.id || ''
+  return String(p).split('/').filter(Boolean).pop() || ''
+}
+
 /** 把 Nuxt Content 的 markdown AST 拍平成纯文本，供搜索用。 */
 export function markdownText(node: unknown): string {
   if (node == null) return ''

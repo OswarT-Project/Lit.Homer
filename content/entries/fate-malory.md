@@ -1,5 +1,6 @@
 ---
 title: 《Fate/stay night》与《亚瑟之死》：王不懂人心
+description: 把亚瑟王变成一位少女，不只是性转。它把中世纪骑士文学里「王的身体属于国家」这一命题，变成了一场关于个人幸福的控诉。
 category: motif
 origin: ai
 game:
@@ -18,11 +19,10 @@ tags:
 updated: 2026-09-27
 quote:
   text: 凡能从这块石头与铁砧中拔出此剑者，便是全英格兰生而合法的王。
+  original: Whoso pulleth out this sword of this stone and anvil, is rightwise king born of all England.
   lang: 英
   source: 《亚瑟之死》第一卷，石中剑铭文
-  note: 据 Caxton 印本英译重译；原文 Whoso pulleth out this sword of this stone and anvil,
-    is rightwise king born of all England.
-summary: 把亚瑟王变成一位少女，不只是性转。它把中世纪骑士文学里「王的身体属于国家」这一命题，变成了一场关于个人幸福的控诉。
+  note: 据 Caxton 印本英译重译。
 notes:
   - label: 谱系
     text: 石中剑（剑与石）与湖中剑（Excalibur）在早期文本中并不总是同一把，Fate 系列亦分别处理。
